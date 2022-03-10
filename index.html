@@ -9,9 +9,43 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <script>
+        function show() {
+            par.hidden=false
+        }
+    </script>
     <h1>WELCOME TO GIT CLASS</h1>
-    <p>We want to push our code to a remote repository</p>
+
+    <p id="par" hidden>We want to push our code to a remote repository</p>
+    <button class="button" onclick="show()">Make it happen</button>
     <h4>Let build this app together</h4>
     <p>this is your mutiple chance</p>
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            color: aqua;
+            font-size: 20px;
+            background-color: black;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+        }
+        .button{
+            width: 300px;
+            height: 50px;
+            background-color: crimson;
+            color: white;
+            border-radius: 35px;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover{
+            background-color: red;
+            color: white;
+        }
+    </style>
+
 </body>
 </html>
