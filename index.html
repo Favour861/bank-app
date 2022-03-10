@@ -13,6 +13,10 @@
     function clickMe() {
         document.getElementById("demo").innerText = ("Hello World")
     }
+
+    function reloadPage() {
+        location.reload()
+    }
 </script>
 
 <body>
@@ -20,6 +24,7 @@
     <p>We want to push our code to a remote repository</p>
     <button onclick="clickMe()">Click Me</button>
     <p id="demo"></p>
+    <button onclick="reloadPage()" style="padding: 10px;background-color: red;border-radius: 20px;border: 0px;">Reload Page</button>
 
 </body>
 
